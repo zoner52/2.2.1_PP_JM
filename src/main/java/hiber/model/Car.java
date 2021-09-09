@@ -11,7 +11,6 @@ public class Car {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Cascade(org.hibernate.annotations.CascadeType.ALL)
     private Long id;
 
     @Column(name = "series")
